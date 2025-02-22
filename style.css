@@ -3,10 +3,9 @@ body {
 }
 header {
   background-color: rgb(215, 220, 224);
-
   top: 0;
   position: fixed;
-  height: 10%;
+  height: 11%;
   width: 100%;
 }
 nav {
@@ -55,10 +54,23 @@ aside {
 }
 
 main {
-  background-color: azure;
+  background-color: white;
   height: 90%;
   width: 85%;
 }
+.videos-portion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer {
   background-color: rgb(24, 23, 22);
   color: white;
