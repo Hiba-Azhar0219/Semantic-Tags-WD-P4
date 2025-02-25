@@ -15,7 +15,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 4px;
+}
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav > div > h1 {
+  display: inline;
+  font-size: 30px;
 }
 nav > ul {
   display: flex;
@@ -57,7 +65,7 @@ aside {
   align-self: flex-start;
 }
 .aside-items li {
-  list-style-type: '>';
+  list-style-type: none;
   padding: 5px;
 }
 img {
